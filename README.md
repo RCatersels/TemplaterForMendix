@@ -8,7 +8,7 @@ The basic examples works the same as the EmailTemplate module from Mendix only n
 # How to use
 The module has two main Java actions. One where a tokenlist can be passed and one where a JSON string can be passed. In the demo I have one microflow example on how to create JSON from a Mendix token list. But offcourse Mendix provides more reliable means of creating a JSON string. Only those need to be modeled out while tokens can be created at runtime. Check out the demo project for microflow examples.
 
-#Dependencies
+# Dependencies
 MxModelReflection
 
 Regards,
