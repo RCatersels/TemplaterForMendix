@@ -9,6 +9,7 @@ The basic examples works the same as the EmailTemplate module from Mendix only n
 1 Import MxModelReflection module from the appstore.
 
 2 Open the MxModelReflection module and create a reference from MxObjetReference to the entity TemplateDocument in the TemplaterForMendix module. When you create this reference it will be called MxObjectReference_TemplateDocument_2 and you have to remove the underscore 2 at the end of the name to change it. Confirm the dialogue box.
+
 ![alt text](https://github.com/RCatersels/TemplaterForMendix/blob/master/MxObjectReference_TemplateDocument.png "Reference properties1")
 
 3 The module has two main Java actions. One where a tokenlist can be passed and one where a JSON string can be passed. In the folder UseMe you will find three excluded microflows with examples on how to use these JAVA actions. The microflow Example3_List_TokenReplace_Template is an example on how to create JSON from a Mendix token list. But offcourse Mendix provides more reliable means of creating a JSON string. Only those need to be modeled out while tokens can be created at runtime.
