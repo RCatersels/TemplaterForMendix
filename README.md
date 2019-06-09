@@ -6,6 +6,9 @@ This module gives you the ability to use tokens in Word, Excel or text documents
 The basic examples works the same as the EmailTemplate module from Mendix only now the template can be a Word, Excel or text file. In the more advanced examples you can feed a list of objects to the template so tables can be filled in the templates. You can also feed JSON to the template but note that such a sollution currently can not be defined on runtime and should be modeled in your Mendix model. 
 
 # How to use
+1 Import MxModelReflection module from the appstore.
+2 Open the TemplateDocument entity and create a reference to MxObjectType of the MxModelReflection module.
+
 The module has two main Java actions. One where a tokenlist can be passed and one where a JSON string can be passed. In the demo I have one microflow example on how to create JSON from a Mendix token list. But offcourse Mendix provides more reliable means of creating a JSON string. Only those need to be modeled out while tokens can be created at runtime. Check out the demo project for the microflow examples.
 
 # Dependencies
