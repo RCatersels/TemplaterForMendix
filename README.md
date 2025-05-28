@@ -1,5 +1,5 @@
 # TemplaterForMendix
-Templater module for Mendix (+7.18.1) is a module so that anyone can use Templater in their Mendix projects.
+Templater module for Mendix (+9.24.34) is a module so that anyone can use Templater in their Mendix projects.
 Templater is a product from New Generation Software Ltd (https://templater.info/). The version of Templater in this module is V5.20. When no license information is provided the generated documents will contain text stating that a license is needed. I would appreciate it when I license is bought that you learned of their product from this module.
 
 This module gives you the ability to use tokens in Word, Excel or text documents. Demo is available on https://templaterformendix-sandbox.mxapps.io That version is the same as the full project you can download here. 
